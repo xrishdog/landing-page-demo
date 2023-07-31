@@ -15,6 +15,9 @@ ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+
+	display: flex;
+	justify-content: space-between;
 }
 
 a{
@@ -23,15 +26,20 @@ a{
 	font-size: 18px;
 	color: #E5E7EB;
 }
-.wrapper{
+
+
+.container{
 	width: 1200px;
 	margin: 0 auto;
 }
 
 .header{
-	min-width: 1200;
 	padding: 15px 0;
 	background-color: #1F2937;
+}
+
+.section .container {
+	display: flex;
 }
 
 .wrapper{
@@ -42,11 +50,6 @@ a{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
-
-.links{
-	display: flex;
-	justify-content: space-between;
 }
 
 .logo{
