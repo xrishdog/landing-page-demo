@@ -10,10 +10,17 @@ body {
 	
 
 }
+
+
 h1 {
 	font-size: 48px;
 	font-weight: extra-bold;
 	color: #F9FAF8 ;
+	margin-bottom: 10px;
+}
+
+h2{
+	text-align: center;
 }
 
 ul{
@@ -32,9 +39,21 @@ a{
 	color: #E5E7EB;
 }
 
+button{
+	padding: 8px 32px;
+	border-radius: 5px;
+	background-color: #3882F6;
+	color: white;
+	border: 0px;
+}
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
 
 .container{
-	width: 1200px;
+	padding: 0 300px;
 	margin: 0 auto;
 }
 
@@ -43,15 +62,17 @@ a{
 	background-color: #1F2937;
 }
 
-.section .container {
-	display: flex;
-	justify-content: space-between;
-}
+
 
 .navbar{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.first .container {
+	display: flex;
+	justify-content: space-between;
 }
 
 .logo{
@@ -61,9 +82,24 @@ a{
 }
 
 .site-description {
-	max-width: 600px;
+	max-width: 500px;
 }
+
 .site-image img {
-	max-width: 600px;
-	max-height: 400px;
+	max-width: 500px;
+/*	max-height: 400px;*/
+}
+
+.boxes{
+	text-align: center;
+	padding: 20px 20px 80px 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.boxes .box {
+	height: 200px;
+	width: 200px;
+	border: 2px solid #3882F6;
+	border-radius: 5px;
 }
