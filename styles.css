@@ -36,7 +36,9 @@ ul{
 	display: flex;
 	justify-content: space-between;
 }
-
+p{
+	margin: 0;
+}
 a{
 	text-decoration: none;
 	margin-left: 15px;
@@ -59,23 +61,20 @@ img{
 }
 
 .header{
-	padding-top: 40px;
+	padding-top: 1em;
 }
+
 .container{
-	padding: 0px 350px;
+	width: 80%;
 	margin: 0 auto;
-}
-.section .container {
-	padding: 90px 350px;
 }
 
 .header, .first, .footer{
 	background-color: #1F2937;
 }
 
-
-
 .navbar{
+	padding-top: 1rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -85,6 +84,7 @@ img{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 5rem 0;
 }
 
 .logo{
@@ -101,6 +101,7 @@ img{
 .site-description p {
 	font-size: 18px;
 	color: #E5E7EB;
+	margin: 1rem 0rem;
 }
 
 .site-image img {
@@ -114,7 +115,10 @@ img{
 
 	padding: 20px 60px 80px 60px;
 	display: flex;
-	justify-content: space-around;
+/*	justify-content: space-around;*/
+	justify-content: center;
+	gap: 4rem;
+	flex-wrap: wrap;
 }
 
 .boxes .box {
