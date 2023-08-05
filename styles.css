@@ -105,7 +105,9 @@ img{
 	
 	display: flex;
 	flex-direction: column;
-	padding: 5rem 10rem;
+	width: 60%;
+	padding: 8rem 0;
+	gap: 2rem;
 }
 
 .logo{
