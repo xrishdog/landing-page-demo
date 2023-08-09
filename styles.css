@@ -61,6 +61,8 @@ img{
 	max-height: 100%;
 }
 
+
+
 .header{
 	padding-top: 1em;
 }
@@ -103,11 +105,25 @@ img{
 
 .third .container {
 	
-	display: flex;
-	flex-direction: column;
 	width: 60%;
 	padding: 8rem 0;
 	gap: 2rem;
+}
+
+.fourth .container {
+	padding: 3rem 5rem;
+	margin: 5rem auto;
+	width: 60%;
+	display: flex;
+
+	flex-wrap: wrap;
+	row-gap: 1rem;
+	
+	align-items: center;
+	justify-content: space-between;
+	background-color: #3882F6;
+	border-radius: 5px;
+
 }
 
 .logo{
@@ -151,6 +167,12 @@ img{
 	border-radius: 8px;
 }
 
+.quote-wrapper{
+	display: flex;
+	flex-direction: column;
+
+}
+
 .quote{
 	font-size: 36px;
 	font-weight: lighter;
@@ -164,4 +186,19 @@ img{
 	font-weight: bold;
 	color: #1F2937;
 	align-self: flex-end;
+	margin-top: 2rem;
+}
+
+/*fourth container style elements*/
+.cta{
+	font-size: 28px;
+}
+.cta-description{
+	color: #F9FAF8;
+	font-weight: lighter;
+}
+
+.fourth .sign-up{
+	border: 2px solid #F9FAF8;
+	min-width: ;
 }
